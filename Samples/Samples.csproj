@@ -34,14 +34,9 @@
     <AssemblyName>Microsoft.PythonTools.Samples</AssemblyName>
     <UseVSSDKTemplateOnly>true</UseVSSDKTemplateOnly>
     <CreateVsixContainer>true</CreateVsixContainer>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="..\..\Product\PythonTools\Python Tools for VS License.rtf">
-      <Link>Python Tools for VS License.rtf</Link>
+    <Content Include="Python Tools for VS License.rtf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>.</VSIXSubPath>

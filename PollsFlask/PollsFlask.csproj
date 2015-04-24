@@ -33,10 +33,6 @@
     <AssemblyName>PollsFlask</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <UseVSSDKTemplateOnly>true</UseVSSDKTemplateOnly>
-    <SccProjectName>SAK</SccProjectName>
-    <SccLocalPath>SAK</SccLocalPath>
-    <SccAuxPath>SAK</SccAuxPath>
-    <SccProvider>SAK</SccProvider>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualStudio.CoreUtility">
