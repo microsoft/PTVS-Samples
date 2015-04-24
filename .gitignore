@@ -1,0 +1,11 @@
+$tf/
+Internal/
+BuildOutput/
+obj/
+*.sdf
+*.opensdf
+*.suo
+TestResults/
+*.vspscc
+*.user
+.hg
