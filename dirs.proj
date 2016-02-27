@@ -2,7 +2,7 @@
 
   <Import Project="$(MSBuildThisFileDirectory)\..\PTVS\Build\Common.Build.settings" />
 
-  <ItemGroup Condition="'$(VSTarget)' == '12.0'">
+  <ItemGroup>
     <ProjectFile Include="KinectGame\KinectGame.csproj"/>
     <ProjectFile Include="PollsBottle\PollsBottle.csproj"/>
     <ProjectFile Include="PollsDjango\PollsDjango.csproj"/>
