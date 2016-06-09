@@ -21,25 +21,26 @@
     <h1 class="top">One more thing...</h1>
     <p>
         Before running this project, you need to <strong>
-            synchronize the
+            create the
             database
         </strong>.
     </p>
 
 
-    <h1>Synchronize the Database</h1>
+    <h1>Create the Database</h1>
     <p>
         This project has default settings for the database (it uses sqlite).
-        You'll need to create the database before running the project.
+        You'll need to create the database and create a superuser before running the project.
     </p>
 
     <ol>
         <li>Open Solution Explorer.</li>
         <li>
-            <p>Right-click the project node and select Python->Django Sync DB.</p>
-            <img src="SyncDB.png" />
+            Right-click the project node and select <strong>Python->Django Migrate</strong>.
         </li>
-        <li>You will be prompted to create a super user, enter yes.</li>
+        <li>
+            Right-click the project node and select <strong>Python->Django Create Superuser</strong>.
+        </li>
         <li>
             Enter a user name, email and password when prompted. The username
             and password do not need to match any existing account.

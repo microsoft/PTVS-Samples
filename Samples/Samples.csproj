@@ -34,6 +34,13 @@
     <AssemblyName>Microsoft.PythonTools.Samples</AssemblyName>
     <UseVSSDKTemplateOnly>true</UseVSSDKTemplateOnly>
     <CreateVsixContainer>true</CreateVsixContainer>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
   </PropertyGroup>
   <ItemGroup>
     <Content Include="Python Tools for VS License.rtf">

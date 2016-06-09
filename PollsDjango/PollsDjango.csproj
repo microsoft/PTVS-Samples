@@ -33,6 +33,13 @@
     <AssemblyName>PollsDjango</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <UseVSSDKTemplateOnly>true</UseVSSDKTemplateOnly>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualStudio.CoreUtility">
@@ -98,8 +105,11 @@
     <Content Include="app\templates\app\results.html" />
     <Content Include="PollsDjango.png" />
     <Content Include="Readme\readme.html" />
-    <Content Include="Readme\SyncDB.png" />
     <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\migrations\0001_initial.py" />
+    <Content Include="app\migrations\__init__.py" />
   </ItemGroup>
   <Import Project="..\ProjectAfter.settings" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
