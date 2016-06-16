@@ -33,6 +33,13 @@
     <AssemblyName>PollsFlaskJade</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <UseVSSDKTemplateOnly>true</UseVSSDKTemplateOnly>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.VisualStudio.CoreUtility">

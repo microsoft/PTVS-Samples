@@ -2,6 +2,7 @@ $tf/
 Internal/
 BuildOutput/
 obj/
+.vs
 *.sdf
 *.opensdf
 *.suo
